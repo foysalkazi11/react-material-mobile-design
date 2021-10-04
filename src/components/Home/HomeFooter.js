@@ -5,7 +5,6 @@ import bag from '../../assets/icons/bag.svg';
 import home from '../../assets/icons/Home.svg';
 import bookmark from '../../assets/icons/bookmark.svg';
 import { ReactSVG } from 'react-svg';
-import { padding } from '@mui/system';
 
 const useStyle = makeStyles(theme =>({
     footerContainer:{
