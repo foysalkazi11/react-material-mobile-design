@@ -4,6 +4,7 @@ const primary = "#005DFF";
 // const secondary = "#B3294E";
 const backgroundDefault = "#FEFEFE";
 const backgroundGrey = "#E9F2FE";
+const ligthGrey = "#ccc";
 
 
 const theme = createTheme({
@@ -12,7 +13,8 @@ const theme = createTheme({
         // secondary: { main: secondary },
         background: { default: backgroundDefault },
         common:{
-            backgroundGrey
+            backgroundGrey,
+            ligthGrey
         }
     }
     

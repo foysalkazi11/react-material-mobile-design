@@ -6,8 +6,9 @@ import ProductList from './components/productList/ProductList';
 
 const tabs =[
   {tabName:"Home"},
-  {tabName:"Discripation"},
   {tabName:"List"},
+  {tabName:"Discripation"},
+  
 ]
 
 function App() {
@@ -30,8 +31,8 @@ function App() {
       </Box>
       <Box>
         {value === 0 && <Home />}
-        {value === 1 && <ProductDetails />}
-        {value === 2 && <ProductList />}
+        {value === 1 && <ProductList />}
+        {value === 2 && <ProductDetails />}
       </Box>
       
     </Container>
