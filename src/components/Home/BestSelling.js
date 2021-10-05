@@ -31,7 +31,7 @@ const useStyle = makeStyles(theme =>({
         padding:"20px 16px",
         borderRadius:10,
         background:theme.palette.background.default,
-        boxShadow:`0 0 5px 5px ${theme.palette.common.backgroundGrey}`,
+        boxShadow:`10px 10px 10px ${theme.palette.common.backgroundGrey}`,
         position:"relative",
         "& img":{
             width:119,
